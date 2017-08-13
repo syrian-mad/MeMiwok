@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.memiwok.MainActivity">
+
+    <TextView
+        android:id="@+id/number_xml_view"
+        style="@style/main_xml_style"
+        android:text="@string/numbers_string"
+        android:background="@color/number_background"/>
+    <TextView
+        style="@style/main_xml_style"
+        android:text="@string/family_string"
+        android:background="@color/family_background"/>
+    <TextView
+        android:background="@color/colors_background"
+        style="@style/main_xml_style"
+        android:text="@string/colors_string" />
+    <TextView
+        style="@style/main_xml_style"
+        android:text="@string/phrase_string"
+        android:background="@color/phrase_background"/>
+
+</LinearLayout>
